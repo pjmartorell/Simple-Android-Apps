@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, ProjecteActivity!</string>
+    <string name="app_name">Projecte</string>
+    <string name="app_name2">Memory</string>
+    <string name="game_prompt">Escull una modalitat</string>
+
+    <string-array name="game_mode">
+        <item>4 x 4</item>
+        <item>5 x 5</item>
+        <item>6 x 6</item>
+    </string-array>
+
+</resources>

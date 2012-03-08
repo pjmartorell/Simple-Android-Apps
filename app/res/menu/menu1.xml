@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/op1" android:title="CreaOpció"></item>
+    <item android:id="@+id/op2" android:title="Notificar"></item>
+    <item android:id="@+id/op3" android:title="Opció 3">
+    	<menu>
+            <group android:id="@+id/group1" android:checkableBehavior="single">
+                <item android:id="@+id/vibrar" android:title="Vibrar"/>
+                <item android:id="@+id/novibrar" android:title="No vibrar"/>
+            </group>
+        </menu>
+    </item>
+    <item android:id="@+id/help" android:title="Ajuda"></item>
+</menu>
